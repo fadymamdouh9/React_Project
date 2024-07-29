@@ -1,0 +1,119 @@
+
+/*====================
+table of contents
+=====================
+1-Left-section
+2-Right-section ==> animation
+
+*/
+
+
+
+
+
+section.hero{
+  margin-top: 3rem;
+}
+
+
+
+/*====================
+1-left-section
+=====================*/
+
+section.hero .parent-avatar{
+  align-items: end;
+  gap: 0.6rem;
+
+}
+
+section.hero .left-section{
+  flex-grow: 1;
+}
+
+section.hero .icon-verified{
+  color: var(--blue);
+  font-size: 1.1rem;
+}
+
+section.hero .avatar{
+  width: 88px;
+  border-radius: 50%;
+  border:3px solid darkorange;
+  padding: 4px;
+  box-shadow:3px 3px 40px rgba(255, 254, 254, 0.586) inset;
+  box-shadow:2px 2px 20px rgba(255, 254, 254, 0.586) ;
+  margin-right: 0.6rem;
+}
+
+section.hero  h1.title{
+  font-size: 2.85rem;
+  line-height: 3.3rem;
+  margin: 24px 0;
+  color: var(--title);
+}
+
+section.hero p.sub-title{
+  color: var(--subtite);
+  font-size: 0.9rem;
+  line-height: 1.65rem;
+  margin-bottom: 32px;
+
+}
+
+section.hero .all-icons {
+
+  font-size: 1.2rem;
+  gap: 1.5rem;
+  color: var(--subtite);
+}
+
+
+.light .hero  h1.title{
+  font-size: 2.85rem;
+  line-height: 3.3rem;
+  margin: 24px 0;
+  color: black;
+}
+
+.light section.hero p.sub-title{
+  color: black;
+  font-size: 0.9rem;
+  line-height: 1.65rem;
+  margin-bottom: 32px;
+
+}
+
+.light section.hero .all-icons {
+
+  font-size: 1.2rem;
+  gap: 1.5rem;
+  color: black;
+
+}
+
+section.hero .all-icons .icon:hover{
+  font-size: 1.3rem;
+  transition: 0.3s;
+  cursor: pointer;
+  color: var(--icon-hover);
+}
+
+
+
+
+
+
+/*====================
+2-Right-section ==> animation
+=====================*/
+
+
+section.hero  .animation{
+  width: 50%;
+  translate: 100px 55px;
+}
+
+@media (max-width: 1250px) {
+  section.hero  .animation{display: none;}
+}
